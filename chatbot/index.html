@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>プログラム</title>
+
+	<link rel="stylesheet" href="./reset.css">
+	<link rel="stylesheet" href="./chatbot.css">
+
+</head>
+
+<body>
+    <main>
+			<div class="chatbotArea">
+				<div class="chatBot" id="chatBot">
+					<ul id="selectArea">
+						<li class="selectWord" id="food">食べ物</li>
+						<li class="selectWord" id="play">遊び</li>
+						<li class="selectWord" id="spot">場所</li>
+						<li class="selectWord" id="game">ゲーム</li>
+						<li class="selectWord" id="anime">アニメ</li>
+						<li class="selectWord" id="comic">漫画</li>
+						<li class="selectWord" id="chara">キャラクター</li>
+						<li class="selectWord" id="music">音楽</li>
+						<li class="selectWord" id="book">書籍</li>
+					</ul>
+					<div class="name_area">
+						<p>Mr.ChatMan</p>
+					</div>
+					<div class="textArea">
+						<ul id="stageView">
+
+						</ul>
+					</div>
+					<div class="popUpArea">
+						<p id="popUp">入力して送信</p>
+					</div>
+					<div class="inputArea" id="inputArea">
+						<input type="text" id="inputText" autocomplete="off"><input type="button" value="送信"
+							id="inputBtn">
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- メインコンテンツ -->
+	</div>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="./chatbot.js"></script>
+
+</body>
+</html>
